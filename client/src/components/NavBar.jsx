@@ -39,7 +39,7 @@ const Navbar = () => {
                     <div className="hidden md:flex">
                         <Link to="/checkout">
                             <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
-                                Checkout
+                                GET IN TOUCH
                             </button>
                         </Link>
                     </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                             onClick={() => setIsOpen(false)}
                             className="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
                         >
-                            Checkout
+                            GET IN TOUCH
                         </button>
                     </Link>
                 </div>
